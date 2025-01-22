@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Cringe Cupid</title>
   </head>
@@ -17,7 +18,7 @@
         </h2>
       </header>
       <main>
-        <form>
+        <form id="line-generator">
           <input
             type="text"
             placeholder="Do you have a topic in mind?"
@@ -27,7 +28,7 @@
           <input type="submit" class="submit-button" />
         </form>
       </main>
-      <div class="line">A goofy pick-up line here.</div>
+      <div class="line"></div>
       <footer>
         Coded by
         <a href="https://github.com/bborelli" target="_blank">Bruna Borelli,</a>

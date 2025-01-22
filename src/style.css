@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #7b5fc2;
+  color: #df436c;
 }
 
 .container {
@@ -31,17 +31,17 @@ form {
 
 .instructions {
   padding: 16px;
-  border: 1px solid rgba(39, 33, 66, 0.5);
+  border: 2px solid #df436c;
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #272044;
+  color: #df436c;
 }
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: #df436c;
   color: white;
   border: none;
   width: 150px;
@@ -55,8 +55,8 @@ form {
   background-color: #fff;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
-  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  border-left: 3px solid #df436c;
+  box-shadow: 0px 4px 30px 0px rgba(70, 29, 39, 0.03);
   margin-top: 10px;
 }
 
