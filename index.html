@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Cringe Cupid</title>
   </head>
@@ -21,6 +22,7 @@
         <form id="line-generator">
           <input
             type="text"
+            id="instructions"
             placeholder="Do you have a topic in mind?"
             autofocus
             class="instructions"
@@ -28,7 +30,7 @@
           <input type="submit" class="submit-button" />
         </form>
       </main>
-      <div class="line"></div>
+      <div class="line" id="line"></div>
       <footer>
         Coded by
         <a href="https://github.com/bborelli" target="_blank">Bruna Borelli,</a>
@@ -36,8 +38,9 @@
         <a href="https://github.com/bborelli/the-cringe-cupid" target="_blank">
           GitHub,</a
         >
+        <br />
         and hosted on
-        <a href="https://cringe-cupid.netlify.app/" target="_blank">Netlify</a>
+        <a href="https://cringe-cupid.netlify.app/" target="_blank">Netlify.</a>
       </footer>
     </div>
     <script src="src/index.js"></script>
