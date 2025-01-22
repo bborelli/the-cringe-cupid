@@ -8,7 +8,7 @@ a {
 }
 
 .container {
-  margin: 80px auto;
+  margin: 70px auto;
   width: 400px;
   height: 600px;
   text-align: center;
@@ -43,7 +43,7 @@ h1 {
 h2 {
   font-size: 18px;
   color: #ea8da1;
-  padding: 20px 0 5px 0;
+  padding: 20px 0 px 0;
 }
 
 form {
@@ -93,7 +93,7 @@ form {
 #line {
   font-size: 16px;
   background-color: #fff;
-  padding: 50px 0 50px 0;
+  padding: 50px 10px 50px 10px;
   line-height: 2;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
